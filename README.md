@@ -13,5 +13,6 @@ This repo is a bot that allows you to fake the move of messages from on channel 
 1. Clone this repo `git clone https://github.com/BedeDD/discord-rb-move-command.git`
 2. Copy your `client_id` to your config.yml
 3. Copy your `client_secret` to your config.yml
-4. Install the bundle `bundle install`
-5. Run the script `ruby move_bot.rb`
+4. Insert your user roles with move permission in your config.yml
+5. Install the bundle `bundle install`
+6. Run the script `ruby move_bot.rb`
