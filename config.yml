@@ -1,0 +1,6 @@
+---
+auth_token: YOUR_CLIENT_SECRET_GOES_HERE
+client_id: YOUR_CLIENT_ID_GOES_HERE
+mover_roles:
+  - YOUR_USER_ROLE1
+  - YOUR_USER_ROLE2
