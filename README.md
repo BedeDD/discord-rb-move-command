@@ -15,6 +15,6 @@ This repo is a bot that allows you to fake the move of messages from on channel 
 3. Copy your `client_secret` to your config.yml
 4. Insert your user roles with move permission in your config.yml
 5. In Terminal
-  5.1. Install bundler `gem install bundler`
-  2. Install the bundle `bundle install`
-  3. Run the script `ruby move_bot.rb`
+6. Install bundler `gem install bundler`
+7. Install the bundle `bundle install`
+8. Run the script `ruby move_bot.rb`
