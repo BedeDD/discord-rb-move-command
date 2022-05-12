@@ -58,6 +58,7 @@ class MoveBot
     @bot.command :move do |event, message_id, target_channel_id, *reason|
       # to check permission of the command calling user we need to collect their roles on the server
       user_roles = event.user.roles.collect(&:name)
+      message_id = message_id.split('-').last if message_id.include?('-')
 
       # permission check - server owner is always allowed to use the command
       return unless [user_roles & @config['mover_roles']].any? || event.user.owner?
